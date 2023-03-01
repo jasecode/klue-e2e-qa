@@ -20,7 +20,7 @@ describe('Klue Blog', () => {
         cy.get('a[href="https://klue.com/"]').click()
     })
 
-    it('can verify Klues top blog contains its most important section section', () => {
+    it('can verify Klues top blog contains its most important section', () => {
         homePage.goToBlogFromMenu()
 
         cy.searchBlog('growing')
